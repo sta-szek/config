@@ -2,4 +2,5 @@ alias madafaka-chuck-the-fuck-out-all-dockers=scripts/remove_all_docker_containe
 alias gradlew='./gradlew'
 alias gcb='./gradlew clean build'
 alias gb='./gradlew build'
-alias sshpojo='ssh ci.pojo.pl'
+alias ssh-ci='ssh ci.pojo.pl'
+alias ssh-hub='ssh hub.pojo.pl'
