@@ -1,0 +1,14 @@
+[user]
+	name = Piotr Joński
+	email = p.jonski@cinkciarz.pl
+
+[alias]
+	dmb = "!git checkout master && git branch --merged | grep -v '\\*' | grep -v master | xargs -n 1 git branch -d"
+	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	recommit = "!git add -A && git commit --amend --no-edit"
+	pf = "!git push --force"
+	fix = "!git recommit && git add -A && git pf"
+	up = "!git checkout master && git pull"
+	rh = "!git reset --hard"
+[core]
+	autocrlf = input
