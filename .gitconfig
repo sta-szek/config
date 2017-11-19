@@ -10,5 +10,6 @@
 	fix = "!git recommit && git add -A && git pf"
 	up = "!git checkout master && git pull"
 	rh = "!git reset --hard"
+	s = "!git status -s"
 [core]
 	autocrlf = input
