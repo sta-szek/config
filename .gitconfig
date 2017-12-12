@@ -11,5 +11,6 @@
 	up = "!git checkout master && git pull"
 	rh = "!git reset --hard"
 	s = "!git status -s"
+	who-am-i = "!git config user.name && git config user.email && git config --global user.name && git config --global user.email"
 [core]
 	autocrlf = input
